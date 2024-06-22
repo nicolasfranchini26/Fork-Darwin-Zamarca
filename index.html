@@ -2,23 +2,28 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio S04 DZ</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- tipografia -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Darwin Zamarca</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<body class="dz-bg-body">
+    <nav class="navbar navbar-expand-lg navbar-dark dz-bg-nav ">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/logodz.png" class="img-fluid logomax">
@@ -45,158 +50,165 @@
         </div>
     </nav>
 
-    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
-        <div class="container">
-            <div class="ms-auto col-12 col-md-7 ">
-                <h1 class="display-1 fw-bold my-5">
-                    Observemos <br> bajo del mar
-                </h1>
-                <p class="my-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                </p>
-            </div>
-        </div>
-    </header>
-    <section id="Acerca-de-mi" class="container text-center my-5">
-        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
-        <p class="my-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quisquam distinctio, odit laborum aliquam
-            earum itaque cum sequi, dolorem optio vol
-        </p>
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <i class="fas fa-robot fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Informático</h3>
-                <p class="my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                </p>
-            </div>
-            <div class="col-12 col-md-4">
-                <i class="fas fa-running fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Deportista</h3>
-                <p class="my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                </p>
-            </div>
-            <div class="col-12 col-md-4">
-                <i class="fas fa-plane fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Amante de los Viajes</h3>
-                <p class="my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                </p>
-            </div>
-        </div>
-    </section>
+    <section class="container rounded  text-center">
+        <!-- Header -->
+        <section class="container text-center mt-5 py-3 rounded-top dz-bg-header">
+            <h1 class="dz-color-light my-0">Darwin Zamarca G.</h1>
+            <p class="dz-texto3 dz-color-light mb-0 text-center">Software Developer | Jedox | SQL Server | PHP | Pentaho
+                | Google
+                Workspace | S&OP
+            </p>
+        </section>
+        <section class="container my-0 py-2 dz-bg-header2 d-flex justify-content-center">
+            <p class="dz-texto3 dz-color-light m-0">dzamarca@gmail.com | +56 9 9435 3897 | Santiago, Chile</p>
+        </section>
 
+        <!-- Educación -->
+        <section class="container text-start mt-0 p-2 dz-bg-section">
+            <p class="dz-tittle dz-color-cyan ps-2">Perfil Profesional</p>
+            <div class="row ps-3">
+                <p class="m-0 dz-texto2">
+                    Profesional en el desarrollo de software con amplia trayectoria en la creación, implementación,
+                    evaluación y mantenimiento de sistemas informáticos. Familiarizado con las herramientas y
+                    metodologías
+                    más avanzadas del desarrollo de software.
+                    <br><br>
+                    Capaz de gestionar proyectos de manera autónoma con eficacia y eficiencia. Excelente colaborador en
+                    equipos altamente productivos, aportando habilidades sólidas para trabajar en conjunto y alcanzar
+                    objetivos comunes.
+                </p>
+            </div>
+        </section>
 
-    <section id="Mis-trabajos" class="my-5 p-5 bgSeccion1">
-
-        <h2 class="display-4 fw-bold text-center text-light mb-3">Mis Hoobies</h2>
-        <div class="row">
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/buceo.JPG)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Buceo</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </p>
-                        <button type="button" class="btn btn-outline-danger">
-                            Ver más
-                        </button>
+        <!-- Educación -->
+        <section class="container text-start mt-0 p-2 dz-bg-section">
+            <p class="dz-tittle dz-color-cyan ps-2">Educación</p>
+            <div class="row ps-3 ps-lg-0">
+                <div class="col-12 col-sm-6 col-lg-4 mb-2 d-flex">
+                    <div class="col-2 col-sm-3 d-none d-sm-block text-center">
+                        <i class="fas fa-user-graduate fa-2x my-3"></i>
+                    </div>
+                    <div class="col-10 col-sm-9">
+                        <h4 class="m-0 dz-texto1-bold dz-color-cyan">Ingeniero Informático</h4>
+                        <p class="m-0 dz-texto2-bold">Universidad Tecnológica de Chile</p>
+                        <p class="m-0 dz-texto3">2008-2021</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2 d-flex">
+                    <div class="col-2 col-sm-3 d-none d-sm-block text-center">
+                        <i class="fas fa-user-graduate fa-2x my-3"></i>
+                    </div>
+                    <div class="col-10 col-sm-9">
+                        <h4 class="m-0 dz-texto1-bold dz-color-cyan">Licenciado en Informática</h4>
+                        <p class="m-0 dz-texto2-bold">Universidad Tecnológica de Chile</p>
+                        <p class="m-0 dz-texto3">2008-2021</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/trekking.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Trekking</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </p>
-                        <button type="button" class="btn btn-outline-danger">
-                            Ver más
-                        </button>
+        </section>
+        <!-- Educación -->
+        <section class="container text-start mt-0 p-2 dz-bg-section">
+            <p class="dz-tittle dz-color-cyan ps-2">Capacitaciones</p>
+            <div class="row ps-3 ps-lg-0">
+                <div class="col-12 col-sm-6 col-lg-4 mb-2 d-flex">
+                    <div class="col-2 col-sm-3 d-none d-sm-block text-center">
+                        <i class="fas fa-user-edit fa-2x my-3"></i>
+                    </div>
+                    <div class="col-10 col-sm-9">
+                        <h4 class="m-0 dz-texto1-bold dz-color-cyan">Full Stack Javascript</h4>
+                        <p class="m-0 dz-texto2-bold">Desafío Latam</p>
+                        <p class="m-0 dz-texto3">2024- a la fecha</p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/crossfit.jpeg)"></div>
+        </section>
+        <!-- Experiencia -->
+        <section class="container text-start mt-0 p-2 dz-bg-section">
+            <p class="dz-tittle dz-color-cyan ps-2">Experiencia</p>
+            <div class="row ps-3 ps-lg-0">
+                <div class="col-12 col-sm-6 mb-2 d-flex">
+                    <div class="col-2 col-sm-3 d-none d-sm-block text-center">
+                        <i class="fas fa-laptop-code fa-2x my-3"></i>
+                    </div>
+                    <div class="col-10 col-sm-9">
+                        <h4 class="m-0 dz-texto1-bold dz-color-cyan">En desarrolo</h4>
+                        <!-- <p class="m-0 dz-texto2-bold">Desafío Latam</p>
+                        <p class="m-0 dz-texto3">2024- a la fecha</p> -->
+                    </div>
+                </div>
+                <!--
+                <div class="col-12 col-sm-6 mb-2 d-flex">
+                    <div class="col-2 col-sm-3 d-none d-sm-block text-center">
+                        <i class="fas fa-laptop-code fa-2x my-3"></i>
+                    </div>
+                    <div class="col-10 col-sm-9">
+                        <h4 class="m-0 dz-texto1-bold dz-color-cyan">Ingeniero Informático</h4>
+                        <p class="m-0 dz-texto2-bold">Universidad Tecnológica de Chile</p>
+                        <p class="m-0 dz-texto3">2008-2021</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 mb-2 d-flex">
+                    <div class="col-2 col-sm-3 d-none d-sm-block text-center">
+                        <i class="fas fa-laptop-code fa-2x my-3"></i>
+                    </div>
+                    <div class="col-10 col-sm-9">
+                        <h4 class="m-0 dz-texto1-bold dz-color-cyan">Licenciado Informática</h4>
+                        <p class="m-0 dz-texto2-bold">Universidad Tecnológica de Chile</p>
+                        <p class="m-0 dz-texto3">2008-2021</p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="container text-start mt-0 p-2 mb-4 dz-bg-section">
+            <p class="dz-tittle dz-color-cyan ps-2">Proyectos</p>
+            <div class="card-group">
+                <div class="card m-2">
+                    <img src="./assets/img/desafio01.png" class="card-img-top image-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Crossfit</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </p>
-                        <button type="button" class="btn btn-outline-danger">
-                            Ver más
-                        </button>
+                        <h5 class="card-title fw-bold">Desafio semana 1</h5>
+                        <p class="card-text">Mi Curriculum Vitae en HTML.</p>
+                    </div>
+                </div>
+                <div class="card m-2">
+                    <img src="./assets/img/desafio02.png" class="card-img-top image-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Desafio semana 2</h5>
+                        <p class="card-text">Construyendo un landing page.</p>
+                    </div>
+                </div>
+                <div class="card m-2">
+                    <img src="./assets/img/desafio03.png" class="card-img-top image-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Desafio semana 3</h5>
+                        <p class="card-text">Iguana page.</p>
                     </div>
                 </div>
             </div>
-        </div>
-
+            <div class="card-group mt-3">
+                <div class="card m-2">
+                    <img src="./assets/img/desafio04.png" class="card-img-top image-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Desafio semana 4</h5>
+                        <p class="card-text">Cuppon.</p>
+                    </div>
+                </div>
+                <div class="card m-2">
+                    <img src="./assets/img/desafio05.png" class="card-img-top image-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Desafio semana 5</h5>
+                        <p class="card-text">Github.</p>
+                    </div>
+                </div>
+                <div class="card m-2">
+                </div>
+            </div>
+        </section>
     </section>
-
-    <section id="Contacto" class="container my-5">
-
-        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
-
-        <p class="text-center my-4 d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Doloribus
-            sapiente, autem delectus totam expedita
-            animi corporis dolorem qui magnam, aspernatur officiis quasi culpa tempora est commodi. Voluptate beatae
-            tempora quaerat?</p>
-
-        <form>
-
-
-            <div class="form-group mb-4">
-                <label class="mb-2">Nombre</label>
-                <input class="form-control" placeholder="Nombre">
-            </div>
-
-            <div class="form-group mb-4">
-                <label class="mb-2">Correo electrónico</label>
-                <input class="form-control" placeholder="Correo electrónico" />
-            </div>
-
-
-            <div class="form-group">
-                <label class="mb-2">Mensaje</label>
-                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
-            </div>
-
-            <div class="my-3 text-end">
-                <button class="btn btn-info text-light">Enviar</button>
-            </div>
-
-
-
-        </form>
-
-    </section>
-
-
-
-    <footer class="bg-dark text-center text-light p-4">
+    <footer class="dz-bg-nav text-center text-light p-4">
         <p class="mb-0">Darwin Zamarca 2024. Todos los derechos reservados.</p>
     </footer>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>

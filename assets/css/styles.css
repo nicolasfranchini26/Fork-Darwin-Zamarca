@@ -1,0 +1,80 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  color: #636363;
+}
+
+/*dz_logo*/
+.logomax{
+  width: 200px;
+}
+
+.dz-tittle{
+  font-size: 1.5rem;
+  text-align: start;
+  font-weight: bold;
+
+}
+
+.dz-tittle-light{
+  font-size: 1.5rem;
+  text-align: start;
+  font-weight: bold;
+}
+
+.dz-texto1-bold{
+  font-size: 1.2rem;
+  text-align: start;
+  font-weight: bold;
+}
+
+.dz-texto2-bold{
+  font-size: 1rem;
+  text-align: start;
+  font-weight: bold;
+}
+.dz-texto2{
+  font-size: 1rem;
+  text-align: start;
+}
+
+.dz-texto3{
+  font-size: 0.9rem;
+  text-align: start;
+}
+
+.dz-color-cyan{
+  color: #449399;
+}
+
+.dz-color-light{
+  color: #fff;
+}
+
+.dz-color-green{
+  color: #77e4a6;
+}
+
+.image-top{
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* background */
+.dz-bg-nav{
+  background-color: #313c4e;
+}
+.dz-bg-body{
+  background-color: #dcdcdc;
+}
+.dz-bg-header{
+  background-color: #313c4e;
+}
+.dz-bg-header2{
+  background-color: #222a33;
+}
+.dz-bg-section{
+  background-color: #f9fafc;
+}
